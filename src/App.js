@@ -1,11 +1,26 @@
 import React from 'react';
 import './App.css';
+import { Router } from '@reach/router';
+import Home from './Components/Logo';
+import Nav from './Components/Nav';
+import HomePage from './Components/HomePage';
+import SuccPlanningPage from './Components/SuccPlanningPage';
+import VitaProfilingPage from './Components/VitaProfilingPage';
+import SpeakingPage from './Components/SpeakingPage';
+import ContactPage from './Components/ContactPage';
 
 function App() {
   return (
     <div className="App">
-      <h1>Becky Miles</h1>
-      <h2>Personal personnel consultancy</h2>
+      <Home className="homeIcon" />
+      <Nav className="Nav" />
+      <Router className="Body">
+        <HomePage path="/" />
+        <SuccPlanningPage path="/succession-planning" />
+        <VitaProfilingPage path="/vita-profiling" />
+        <SpeakingPage path="/speaking" />
+        <ContactPage path="/contact" />
+      </Router>
     </div>
   );
 }

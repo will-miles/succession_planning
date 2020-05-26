@@ -1,3 +1,22 @@
 .App {
   text-align: center;
+  display: grid;
+  grid-template-areas: 'home nav' 'body body';
+  grid-template-columns: 1fr 7fr;
+}
+
+.HomeIcon {
+  grid-area: home;
+}
+
+.Nav {
+  grid-area: nav;
+}
+
+.Body {
+  grid-area: body;
+}
+
+body {
+  background-color: #f1d9a7;
 }
