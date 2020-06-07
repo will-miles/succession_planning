@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Router } from '@reach/router';
-import Home from './Components/Logo';
+import Header from './Components/Logo';
 import Nav from './Components/Nav';
 import HomePage from './Components/HomePage';
 import SuccPlanningPage from './Components/SuccPlanningPage';
@@ -12,7 +12,7 @@ import ContactPage from './Components/ContactPage';
 function App() {
   return (
     <div className="App">
-      <Home className="homeIcon" />
+      <Header className="homeIcon" />
       <Nav className="Nav" />
       <Router className="Body">
         <HomePage path="/" />

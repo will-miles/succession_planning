@@ -1,8 +1,7 @@
 .App {
   text-align: center;
   display: grid;
-  grid-template-areas: 'home nav' 'body body';
-  grid-template-columns: 1fr 7fr;
+  grid-template-areas: 'home' 'nav' 'body';
 }
 
 .HomeIcon {
@@ -14,7 +13,10 @@
 }
 
 .Body {
+  text-align: justify;
   grid-area: body;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 body {

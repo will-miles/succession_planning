@@ -1,6 +1,13 @@
 .Nav {
+  color: black;
+  text-decoration: none;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   background-color: #f3d34a;
+}
+
+.Nav h3 {
+  color: black;
+  text-decoration: none;
 }

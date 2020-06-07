@@ -1,6 +1,4 @@
 .HomePage {
-  margin-right: 20px;
-  margin-left: 20px;
   display: grid;
   grid-template-areas: '1 2';
   grid-template-columns: 4fr 2fr;
