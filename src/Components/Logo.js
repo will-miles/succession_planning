@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="Logo">
       <Link to="/">
-        <img className="logoImg" src={'../logo.png'} alt="Rapport4All Logo" />
+        <img className="logoImg" src={'../logo.png'} alt="Rapport By Design" />
       </Link>
     </div>
   );

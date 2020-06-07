@@ -1,8 +1,9 @@
 .App {
   text-align: center;
   display: grid;
-  grid-template-areas: 'home nav' 'body body';
-  grid-template-columns: 1fr 7fr;
+  grid-template-areas: "home nav" "body body";
+  grid-template-columns: 2fr 5fr;
+  grid-template-rows: 150px auto;
 }
 
 .HomeIcon {
@@ -15,8 +16,12 @@
 
 .Body {
   grid-area: body;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body {
-  background-color: #f1d9a7;
+  /* background-color: #f1d9a7; */
+  font-family: "Roboto", sans-serif;
 }

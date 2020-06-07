@@ -1,6 +1,29 @@
 .Nav {
+  text-decoration: none;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   background-color: #f3d34a;
+  padding-top: auto;
+  padding-bottom: auto;
+}
+
+.Home {
+  text-decoration: none;
+  color: black;
+}
+
+.SuccPlan {
+  text-decoration: none;
+  color: black;
+}
+
+.Speaking {
+  text-decoration: none;
+  color: black;
+}
+
+.Contact {
+  text-decoration: none;
+  color: black;
 }
