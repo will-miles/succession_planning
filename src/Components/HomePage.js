@@ -1,19 +1,46 @@
-import React from 'react';
-import './HomePage.css';
+import React from "react";
+import "./HomePage.css";
 
 const HomePage = () => {
   return (
     <div className="HomePage">
       <div className="section1">
-        <h3>Home</h3>
+        <h4>
+          Welcome to Rapport By Design
+          <br />
+          Family Business Succession Planning
+        </h4>
         <p>
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum."
+          Created by Becky Miles, a fully trained Family Succession Plan
+          Facilitator, to provide a professional, confidential and above all
+          compassionate service for families to guide and support them to a
+          Succession Plan that delivers for the whole family.
+          <br />
+          Becky, born on a small family dairy farm in Devon, has had Agriculture
+          at the core of her career from Grain Trading to mixed farming in
+          Portugal. She understands that Family businesses, whilst they can be
+          complex, are a tightly woven team that supports each other and takes
+          enormous pride in the achievements of each individual and the business
+          as a whole.
+          <br />
+          To protect the business and the family it is vital that an agreed
+          Succession Plan is put in place.
+          <br />
+          <b>R</b> – Realise the potential of each family member
+          <br />
+          <b>A</b> – Align family vision for the future
+          <br />
+          <b>P</b> – Progress the business with the security a Succession Plan
+          provides
+          <br />
+          <b>P</b> – Protection, the business has a future
+          <br />
+          <b>O</b> – Ownership by the whole family of the Succession Plan
+          <br />
+          <b>R</b> – Reassurance provided by the knowledge you are all in
+          agreement
+          <br />
+          <b>T</b> – Trust reinforced within the family for a secure future
         </p>
         <p>
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

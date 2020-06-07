@@ -1,16 +1,3 @@
-.SuccPlanningPage {
-  display: grid;
-  grid-template-areas: 'planning1 planning2';
-  grid-template-columns: 2fr 4fr;
-}
-
-.planning1 {
-  grid-area: 'planning1';
-  max-width: 100%;
-  margin: 10px;
-}
-
-.planning2 {
-  grid-area: 'planning2';
-  padding-left: 10px;
+p {
+  text-align: justify;
 }

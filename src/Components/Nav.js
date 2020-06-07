@@ -1,6 +1,6 @@
-import React from 'react';
-import './Nav.css';
-import { Link } from '@reach/router';
+import React from "react";
+import "./Nav.css";
+import { Link } from "@reach/router";
 
 const Nav = () => {
   return (
@@ -11,9 +11,9 @@ const Nav = () => {
       <Link to="/succession-planning" className="SuccPlan">
         <h3>Succession Planning</h3>
       </Link>
-      <Link to="/vita-profiling" className="VitaProf">
+      {/* <Link to="/vita-profiling" className="VitaProf">
         <h3>Vita Profiling</h3>
-      </Link>
+      </Link> */}
       <Link to="/speaking" className="Speaking">
         <h3>Speaking</h3>
       </Link>

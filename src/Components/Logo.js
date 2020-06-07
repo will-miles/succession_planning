@@ -4,11 +4,9 @@ import { Link } from '@reach/router';
 
 const Header = () => {
   return (
-    <div className="Header">
-      <Link to="/" className="Header">
-        <img className="logoImg" src={'../logo.png'} alt="Rapport4All Logo" />
-        <h1>Rapport4All</h1>
-        <h2>Becky Miles</h2>
+    <div className="Logo">
+      <Link to="/">
+        <img className="logoImg" src={'../logo.png'} alt="Rapport By Design" />
       </Link>
     </div>
   );
