@@ -1,0 +1,13 @@
+.Footer {
+  text-align: right;
+  background-color: grey;
+}
+
+.unsplashLink {
+  text-decoration: none;
+  color: black;
+}
+
+.unsplashlink:hover {
+  color: rgb(212, 212, 212);
+}

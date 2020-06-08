@@ -3,9 +3,8 @@
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  background-color: #f3d34a;
-  padding-top: auto;
-  padding-bottom: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .Home {
@@ -31,4 +30,8 @@
 .Nav h3 {
   color: black;
   text-decoration: none;
+}
+
+.navLink:hover {
+  color: rgb(255, 171, 16);
 }

@@ -1,28 +1,41 @@
 .App {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   display: grid;
-  grid-template-areas: 'home nav' 'body body';
-  grid-template-columns: 2fr 5fr;
-  grid-template-rows: 150px auto;
+  grid-template-areas: 'header' 'body' 'footer';
+  grid-template-rows: 120px auto;
+  color: rgb(87, 87, 87);
+  min-height: 100vh;
 }
 
-.HomeIcon {
-  grid-area: home;
-}
-
-.Nav {
-  grid-area: nav;
+.Header {
+  grid-area: header;
 }
 
 .Body {
   text-align: justify;
   grid-area: body;
-  width: 70%;
+  width: 80%;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 50px;
 }
 
-body {
-  /* background-color: #f1d9a7; */
-  font-family: 'Roboto', sans-serif;
+.Footer {
+  height: 50px;
+  position: absolute;
+  grid-area: footer;
+  margin-top: 10px;
+  bottom: 0;
+  width: 100%;
+}
+
+.orangeText {
+  color: rgb(255, 171, 16);
+}
+
+.title {
+  text-align: center;
 }
