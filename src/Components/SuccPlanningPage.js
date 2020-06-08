@@ -39,24 +39,17 @@ const SuccPlanningPage = () => {
               to take it on?
             </li>
           </ul>
+          <p>
+            For a confidential discussion on how to ‘Get the Conversation
+            Started’ and get the family round the table to achieve an agreed
+            Succession Plan contact Becky – all details on the contact page.
+          </p>
         </div>
         <img
           className="sp-photo-1"
-          src="https://images.unsplash.com/photo-1588641750012-474003b37f49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60"
-          alt="woman and dog"
+          src={require('../images/succ_pln_img.jpg')}
+          alt="family_pic"
         />
-      </div>
-      <div className="sp-section-2">
-        <img
-          className="sp-photo-2"
-          src="https://images.unsplash.com/photo-1588641750012-474003b37f49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60"
-          alt="woman and dog"
-        />
-        <p className="sp-body-2">
-          For a confidential discussion on how to ‘Get the Conversation Started’
-          and get the family round the table to achieve an agreed Succession
-          Plan contact Becky – all details on the contact page.
-        </p>
       </div>
     </div>
   );

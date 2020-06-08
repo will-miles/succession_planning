@@ -17,7 +17,7 @@ function App() {
         <HomePage path="/" />
         <SuccPlanningPage path="/succession-planning" />
         {/* <VitaProfilingPage path="/vita-profiling" /> */}
-        <speaking-page path="/speaking" />
+        <SpeakingPage path="/speaking" />
         <ContactPage path="/contact" />
       </Router>
       <Footer className="footer" />

@@ -4,15 +4,17 @@
 }
 
 .footer p {
+  font-size: smaller;
   text-align: right;
+  margin-right: 20px;
 }
 
-.unsplash-link {
+.footer-link {
   text-decoration: none;
   color: rgb(212, 212, 212);
 }
 
-.unsplash-link:hover {
+.footer-link:hover {
   text-decoration: underline;
   color: rgb(87, 87, 87);
 }
