@@ -1,52 +1,56 @@
-.succPlanningPage {
+.succ-plan-page {
   display: grid;
   grid-template-areas: 'section1' 'section2';
 }
 
-.spSection1 {
+.sp-section-1 {
   display: grid;
   grid-template-areas: 'body1 photo1';
   grid-template-columns: 2fr 1fr;
   grid-area: section1;
 }
 
-.spBody1 {
+.sp-body-1 {
   grid-area: body1;
 }
 
-.spPhoto1 {
+.sp-body-1 p {
+  text-align: justify;
+}
+
+.sp-photo-1 {
   grid-area: photo1;
   max-width: 90%;
   margin-top: 5%;
   margin-left: 5%;
 }
 
-.spSection2 {
+.sp-section-2 {
   display: grid;
   grid-template-areas: 'photo2 body2';
   grid-template-columns: 1fr 2fr;
   grid-area: section2;
 }
 
-.spBody2 {
+.sp-body-2 {
   grid-area: body2;
 }
 
-.spPhoto2 {
+.sp-body-2 p {
+  text-align: justify;
+}
+
+.sp-photo-2 {
   grid-area: photo2;
   max-width: 90%;
   margin-right: 5%;
 }
 
-p {
-  text-align: justify;
-}
-
-ul {
+.sp-body-1 ul {
   list-style: none;
 }
 
-ul li::before {
+.sp-body-1 ul li::before {
   content: '\2022';
   color: rgb(255, 171, 16);
   display: inline-block;

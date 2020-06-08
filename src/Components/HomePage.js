@@ -3,9 +3,9 @@ import './HomePage.css';
 
 const HomePage = () => {
   return (
-    <div className="HomePage">
-      <div className="homesection1">
-        <h4 className="orangeText title">
+    <div className="home-page">
+      <div className="home-body">
+        <h4 className="orange-text title">
           Welcome to Rapport By Design
           <br />
           Family Business Succession Planning
@@ -29,29 +29,29 @@ const HomePage = () => {
           Succession Plan is put in place.
           <br />
           <br />
-          <b className="orangeText">R</b> – Realise the potential of each family
-          member
+          <b className="orange-text">R</b> – Realise the potential of each
+          family member
           <br />
-          <b className="orangeText">A</b> – Align family vision for the future
+          <b className="orange-text">A</b> – Align family vision for the future
           <br />
-          <b className="orangeText">P</b> – Progress the business with the
+          <b className="orange-text">P</b> – Progress the business with the
           security a Succession Plan provides
           <br />
-          <b className="orangeText">P</b> – Protection, the business has a
+          <b className="orange-text">P</b> – Protection, the business has a
           future
           <br />
-          <b className="orangeText">O</b> – Ownership by the whole family of the
-          Succession Plan
+          <b className="orange-text">O</b> – Ownership by the whole family of
+          the Succession Plan
           <br />
-          <b className="orangeText">R</b> – Reassurance provided by the
+          <b className="orange-text">R</b> – Reassurance provided by the
           knowledge you are all in agreement
           <br />
-          <b className="orangeText">T</b> – Trust reinforced within the family
+          <b className="orange-text">T</b> – Trust reinforced within the family
           for a secure future
         </p>
       </div>
       <img
-        className="homesection2"
+        className="home-photo"
         src="https://images.unsplash.com/photo-1588641750012-474003b37f49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60"
         alt="woman and dog"
       />

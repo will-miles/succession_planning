@@ -1,4 +1,4 @@
-.App {
+.app {
   position: relative;
   font-family: 'Roboto', sans-serif;
   text-align: center;
@@ -9,11 +9,11 @@
   min-height: 100vh;
 }
 
-.Header {
+.header {
   grid-area: header;
 }
 
-.Body {
+.body {
   text-align: justify;
   grid-area: body;
   width: 80%;
@@ -23,7 +23,7 @@
   padding-bottom: 50px;
 }
 
-.Footer {
+.footer {
   height: 50px;
   position: absolute;
   grid-area: footer;
@@ -32,7 +32,7 @@
   width: 100%;
 }
 
-.orangeText {
+.orange-text {
   color: rgb(255, 171, 16);
 }
 

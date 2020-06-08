@@ -1,22 +1,22 @@
 import React, { Component } from 'react';
 import './Nav.css';
-import { Link, Location } from '@reach/router';
+import { Link } from '@reach/router';
 
 class Nav extends Component {
   state = {};
 
   render() {
     return (
-      <div className="Nav">
+      <div className="nav">
         <h3>
-          <Link to="/" className="Home navLink" onClick={handleNavClick}>
+          <Link to="/" className="home nav-link" onClick={handleNavClick}>
             Home
           </Link>
         </h3>
         <h3>
           <Link
             to="/succession-planning"
-            className="SuccPlan navLink"
+            className="succ-plan nav-link"
             onClick={handleNavClick}
           >
             Succession Planning
@@ -28,7 +28,7 @@ class Nav extends Component {
         <h3>
           <Link
             to="/speaking"
-            className="Speaking navLink"
+            className="speaking nav-link"
             onClick={handleNavClick}
           >
             Speaking
@@ -37,7 +37,7 @@ class Nav extends Component {
         <h3>
           <Link
             to="/contact"
-            className="Contact navLink"
+            className="contact nav-link"
             onClick={handleNavClick}
           >
             Contact
@@ -50,8 +50,8 @@ class Nav extends Component {
 
 const handleNavClick = (e) => {
   console.log(e.target.classList);
-  if (e.target.classList.contains('orangeText')) {
-    e.target.classList.remove('orangeText');
+  if (e.target.classList.contains('orange-text')) {
+    e.target.classList.remove('orange-text');
   } else {
   }
 };

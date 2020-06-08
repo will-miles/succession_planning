@@ -1,4 +1,4 @@
-.Logo {
+.logo {
   padding-top: auto;
   padding-bottom: auto;
   display: grid;
@@ -6,11 +6,11 @@
   background-color: #e0e0e0;
 }
 
-h1 {
+.logo-link h1 {
   margin: 0 0 0 0;
 }
 
-#logoText {
+.logo-link {
   text-decoration: none;
   color: rgb(255, 171, 16);
   margin-top: auto;

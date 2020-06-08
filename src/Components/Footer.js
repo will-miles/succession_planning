@@ -3,10 +3,10 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <div className="Footer">
+    <div className="footer">
       <p>
         All Images sourced from{' '}
-        <a href="https://unsplash.com/" className="unsplashLink">
+        <a href="https://unsplash.com/" className="unsplash-link">
           Unsplash
         </a>
       </p>

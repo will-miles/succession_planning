@@ -3,10 +3,10 @@ import './SuccPlanningPage.css';
 
 const SuccPlanningPage = () => {
   return (
-    <div className="succPlanningPage">
-      <div className="spSection1">
-        <div className="spBody1">
-          <h3 className="orangeText title">Succession Planning</h3>
+    <div className="succ-plan-page">
+      <div className="sp-section-1">
+        <div className="sp-body-1">
+          <h3 className="orange-text title">Succession Planning</h3>
           <p>
             The topic of Succession within family businesses would on the
             outside appear innocuous – but this is very often not the case. How
@@ -17,7 +17,7 @@ const SuccPlanningPage = () => {
             ‘the elephant in the room’, for example
             <br />
           </p>
-          <ul className="reasonList">
+          <ul>
             <li>
               When will Grandad/Dad/Mum start to let go and give me a chance?
             </li>
@@ -41,18 +41,18 @@ const SuccPlanningPage = () => {
           </ul>
         </div>
         <img
-          className="spPhoto1"
+          className="sp-photo-1"
           src="https://images.unsplash.com/photo-1588641750012-474003b37f49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60"
           alt="woman and dog"
         />
       </div>
-      <div className="spSection2">
+      <div className="sp-section-2">
         <img
-          className="spPhoto2"
+          className="sp-photo-2"
           src="https://images.unsplash.com/photo-1588641750012-474003b37f49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60"
           alt="woman and dog"
         />
-        <p className="spBody2">
+        <p className="sp-body-2">
           For a confidential discussion on how to ‘Get the Conversation Started’
           and get the family round the table to achieve an agreed Succession
           Plan contact Becky – all details on the contact page.

@@ -11,16 +11,16 @@ import Footer from './Components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <Header className="Header" />
-      <Router className="Body">
+    <div className="app">
+      <Header className="header" />
+      <Router className="body">
         <HomePage path="/" />
         <SuccPlanningPage path="/succession-planning" />
         {/* <VitaProfilingPage path="/vita-profiling" /> */}
-        <SpeakingPage path="/speaking" />
+        <speaking-page path="/speaking" />
         <ContactPage path="/contact" />
       </Router>
-      <Footer className="Footer" />
+      <Footer className="footer" />
     </div>
   );
 }

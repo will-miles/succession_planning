@@ -1,14 +1,15 @@
-.HomePage {
+.home-page {
   display: grid;
   grid-template-areas: '1 2';
   grid-template-columns: 2fr 1fr;
 }
 
-.homesection1 {
+.home-body {
+  text-align: justify;
   grid-area: '1';
 }
 
-.homesection2 {
+.home-photo {
   grid-area: '2';
   max-width: 90%;
   margin: 5%;

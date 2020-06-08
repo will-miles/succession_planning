@@ -5,11 +5,11 @@ import Nav from './Nav';
 
 const Header = () => {
   return (
-    <div className="Logo">
-      <Link to="/" id="logoText">
+    <div className="logo">
+      <Link to="/" className="logo-link">
         <h1>RBD</h1>
       </Link>
-      <Nav className="Nav" />
+      <Nav className="nav" />
     </div>
   );
 };

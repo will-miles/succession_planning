@@ -1,13 +1,18 @@
-.Footer {
-  text-align: right;
+.footer {
+  color: rgb(212, 212, 212);
   background-color: grey;
 }
 
-.unsplashLink {
-  text-decoration: none;
-  color: black;
+.footer p {
+  text-align: right;
 }
 
-.unsplashlink:hover {
+.unsplash-link {
+  text-decoration: none;
   color: rgb(212, 212, 212);
+}
+
+.unsplash-link:hover {
+  text-decoration: underline;
+  color: rgb(87, 87, 87);
 }

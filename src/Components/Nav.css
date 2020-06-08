@@ -1,4 +1,4 @@
-.Nav {
+.nav {
   text-decoration: none;
   text-align: center;
   display: grid;
@@ -7,27 +7,27 @@
   margin-bottom: auto;
 }
 
-.Home {
+.home {
   text-decoration: none;
   color: black;
 }
 
-.SuccPlan {
+.succ-plan {
   text-decoration: none;
   color: black;
 }
 
-.Speaking {
+.speaking {
   text-decoration: none;
   color: black;
 }
 
-.Contact {
+.contact {
   text-decoration: none;
   color: black;
 }
 
-.Nav h3 {
+.nav h3 {
   color: black;
   text-decoration: none;
 }
