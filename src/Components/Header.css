@@ -6,6 +6,11 @@
   background-color: #e0e0e0;
 }
 
+#logo-img {
+  margin-top: 10px;
+  max-height: 50px;
+}
+
 .logo-link h1 {
   margin: 0 0 0 0;
 }
@@ -15,5 +20,5 @@
   color: rgb(255, 171, 16);
   margin-top: auto;
   margin-bottom: auto;
-  font-size: xx-large;
+  font-size: small;
 }

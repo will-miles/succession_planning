@@ -52,7 +52,7 @@ const HomePage = () => {
       </div>
       <img
         className="home-photo"
-        src={require('../images/home_img.jpg')}
+        src={require('../images/profile_img.jpg')}
         alt="family_parking"
       />
     </div>

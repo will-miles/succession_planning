@@ -10,15 +10,6 @@ const Footer = () => {
           Unsplash
         </a>
       </p>
-      <p>
-        Logo courtesy of{' '}
-        <a
-          href="https://niamhholmesdesign.squarespace.com"
-          className="footer-link"
-        >
-          Niamh Holmes Design
-        </a>
-      </p>
     </div>
   );
 };

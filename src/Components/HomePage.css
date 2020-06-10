@@ -13,5 +13,7 @@
   grid-area: '2';
   max-width: 90%;
   margin: 5%;
-  margin-top: 80px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(255, 171, 16);
 }

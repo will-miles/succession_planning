@@ -23,7 +23,7 @@ const SpeakingPage = () => {
       </div>
       <img
         className="speaking-photo-1"
-        src="https://images.unsplash.com/photo-1588641750012-474003b37f49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60"
+        src={require('../images/speaking_img.jpg')}
         alt="woman and dog"
       />
     </div>

@@ -23,6 +23,9 @@
   max-width: 90%;
   margin-top: 5%;
   margin-left: 5%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(255, 171, 16);
 }
 
 .sp-section-2 {
