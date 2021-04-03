@@ -1,5 +1,6 @@
 import React from 'react';
 import './SuccPlanningPage.css';
+import familyImg from '../images/succ_pln_img.jpg';
 
 const SuccPlanningPage = () => {
   return (
@@ -47,7 +48,7 @@ const SuccPlanningPage = () => {
         </div>
         <img
           className="sp-photo-1"
-          src={require('../images/succ_pln_img.jpg')}
+          src={familyImg}
           alt="family_pic"
         />
       </div>

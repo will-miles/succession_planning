@@ -1,5 +1,6 @@
 import React from 'react';
 import './HomePage.css';
+import familyImg from '../images/profile_img.jpg';
 
 const HomePage = () => {
   return (
@@ -52,7 +53,7 @@ const HomePage = () => {
       </div>
       <img
         className="home-photo"
-        src={require('../images/profile_img.jpg')}
+        src={familyImg}
         alt="family_parking"
       />
     </div>
