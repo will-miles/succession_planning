@@ -1,13 +1,13 @@
-import React from 'react';
-import './App.css';
-import { Router } from '@reach/router';
-import Header from './Components/Header';
-import HomePage from './Components/HomePage';
-import SuccPlanningPage from './Components/SuccPlanningPage';
+import React from "react";
+import "./App.css";
+import { Router } from "@reach/router";
+import Header from "./Components/Header";
+import HomePage from "./Components/HomePage";
+import SuccPlanningPage from "./Components/SuccPlanningPage";
 // import VitaProfilingPage from './Components/VitaProfilingPage';
-import SpeakingPage from './Components/SpeakingPage';
-import ContactPage from './Components/ContactPage';
-import Footer from './Components/Footer';
+import SpeakingPage from "./Components/SpeakingPage";
+import ContactPage from "./Components/ContactPage";
+import Footer from "./Components/Footer";
 
 function App() {
   return (

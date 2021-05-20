@@ -1,8 +1,8 @@
-import React from 'react';
-import './Header.css';
-import { Link } from '@reach/router';
-import Nav from './Nav';
-import logoImg from '../images/logo.png';
+import React from "react";
+import "./Header.css";
+import { Link } from "@reach/router";
+import Nav from "./Nav";
+import logoImg from "../images/logo.png";
 
 const Header = () => {
   return (

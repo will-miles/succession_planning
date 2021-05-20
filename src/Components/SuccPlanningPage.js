@@ -1,6 +1,6 @@
-import React from 'react';
-import './SuccPlanningPage.css';
-import familyImg from '../images/succ_pln_img.jpg';
+import React from "react";
+import "./SuccPlanningPage.css";
+import familyImg from "../images/succ_pln_img.jpg";
 
 const SuccPlanningPage = () => {
   return (
@@ -46,11 +46,7 @@ const SuccPlanningPage = () => {
             Succession Plan contact Becky – all details on the contact page.
           </p>
         </div>
-        <img
-          className="sp-photo-1"
-          src={familyImg}
-          alt="family_pic"
-        />
+        <img className="sp-photo-1" src={familyImg} alt="family_pic" />
       </div>
     </div>
   );

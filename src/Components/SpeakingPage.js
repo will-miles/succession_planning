@@ -1,6 +1,6 @@
-import React from 'react';
-import './SpeakingPage.css';
-import micImg from '../images/speaking_img.jpg';
+import React from "react";
+import "./SpeakingPage.css";
+import micImg from "../images/speaking_img.jpg";
 
 const SpeakingPage = () => {
   return (
@@ -22,11 +22,7 @@ const SpeakingPage = () => {
         <h4>June 2020</h4>
         <p>Cereals – The Arable Event, Webinar – Succession Planning</p>
       </div>
-      <img
-        className="speaking-photo-1"
-        src={micImg}
-        alt="mic_img"
-      />
+      <img className="speaking-photo-1" src={micImg} alt="mic_img" />
     </div>
   );
 };

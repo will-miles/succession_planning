@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import './Nav.css';
-import { Link } from '@reach/router';
+import React, { Component } from "react";
+import "./Nav.css";
+import { Link } from "@reach/router";
 
 class Nav extends Component {
   state = {};
@@ -50,8 +50,8 @@ class Nav extends Component {
 
 const handleNavClick = (e) => {
   console.log(e.target.classList);
-  if (e.target.classList.contains('orange-text')) {
-    e.target.classList.remove('orange-text');
+  if (e.target.classList.contains("orange-text")) {
+    e.target.classList.remove("orange-text");
   } else {
   }
 };

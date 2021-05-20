@@ -1,6 +1,6 @@
-import React from 'react';
-import './HomePage.css';
-import familyImg from '../images/profile_img.jpg';
+import React from "react";
+import "./HomePage.css";
+import familyImg from "../images/profile_img.jpg";
 
 const HomePage = () => {
   return (
@@ -51,11 +51,7 @@ const HomePage = () => {
           for a secure future
         </p>
       </div>
-      <img
-        className="home-photo"
-        src={familyImg}
-        alt="family_parking"
-      />
+      <img className="home-photo" src={familyImg} alt="family_parking" />
     </div>
   );
 };
