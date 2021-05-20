@@ -1,6 +1,6 @@
 import React from 'react';
 import './SpeakingPage.css';
-import womanImg from '../images/speaking_img.jpg';
+import micImg from '../images/speaking_img.jpg';
 
 const SpeakingPage = () => {
   return (
@@ -24,8 +24,8 @@ const SpeakingPage = () => {
       </div>
       <img
         className="speaking-photo-1"
-        src={womanImg}
-        alt="woman and dog"
+        src={micImg}
+        alt="mic_img"
       />
     </div>
   );
