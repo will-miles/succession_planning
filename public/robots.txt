@@ -1,0 +1,3 @@
+UserAgent: "*",
+Disallow: "",
+Sitemap: "https://rapportbydesign.co.uk/sitemap.xml"
